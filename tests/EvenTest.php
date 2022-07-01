@@ -43,7 +43,7 @@ class EvenTest extends TestCase
             $current = $this->even->current();
         }
 
-        $this->assertEquals($expected,$current+1 );
+        $this->assertEquals($expected,$current );
 
     }
 }
